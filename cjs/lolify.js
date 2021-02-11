@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;function lolify(){for(var a=arguments.length,b=Array(a),c=0;c<a;c++)b[c]=arguments[c];return[].concat(b,["\uD83D\uDE02"])}var _default=lolify;exports["default"]=_default;

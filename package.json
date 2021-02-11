@@ -2,16 +2,29 @@
   "name": "@tobben/console.lol",
   "version": "1.0.0",
   "description": "Adds lol() to the console api for a more fun debug experience",
-  "main": "index.js",
+  "main": "cjs/index.js",
   "scripts": {
     "test": "mocha test.js",
-    "coverage": "nyc mocha"
+    "build": "npx babel esm --out-dir cjs"
   },
   "type": "module",
   "author": "Torbjørn Angeltveit <torbjorn@skjermpost.no>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.3.0",
-    "nyc": "^15.1.0"
-  }
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.13",
+    "babel-preset-minify": "^0.5.1",
+    "mocha": "^8.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeltveit/console.lol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angeltveit/console.lol/issues"
+  },
+  "homepage": "https://github.com/angeltveit/console.lol#readme"
 }
