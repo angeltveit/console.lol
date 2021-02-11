@@ -17,5 +17,17 @@ bootstrapLol()
 
 console.lol('Hello world!') // prints "Hello world! 😂"
 ```
+
+## Options
+### Intrusive mode
+
+Replaces all parameters with 😂-emoji, for maximized intrusive fun debugging. 
+
+**Usage:** 
+```js
+import bootstrapLol from '@tobben/console.lol'
+
+bootstrapLol({ mode: "intrusive" })
+```
 ## Motivation
 Lol
