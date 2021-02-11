@@ -1,0 +1,17 @@
+{
+  "name": "@tobben/console.lol",
+  "version": "1.0.0",
+  "description": "Adds lol() to the console api for a more fun debug experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "coverage": "nyc mocha"
+  },
+  "type": "module",
+  "author": "Torbjørn Angeltveit <torbjorn@skjermpost.no>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0"
+  }
+}
