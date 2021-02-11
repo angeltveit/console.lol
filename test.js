@@ -25,3 +25,17 @@ describe('lolify function', () => {
     done()
   })
 })
+
+describe('Intrusive mode', () => {
+  it('Should replace all parameters with laughing emoji', (done) => {
+    bootstrap({ mode: 'intrusive' })
+    // Monkey patch console.log for testing the output
+    globalThis.console.log = (...params) => {
+      if(!params.every(p => p === '😂')) {
+        throw new Error('Debugging experience was not intrusively fun')
+      }
+    }
+    console.lol('Hello', 'World', '!')
+    done()
+  })
+})
