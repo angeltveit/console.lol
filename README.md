@@ -16,3 +16,5 @@ bootstrapLol() // Bootstraps the console.lol
 
 console.lol('Hello world!') // prints "Hello world! 😂"
 ```
+## Motivation
+Lol
