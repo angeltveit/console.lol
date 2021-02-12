@@ -1,3 +1,4 @@
+![Test](test/badge.svg)
 # console.lol 😂
 Adds lol() to the console api for a more fun debug experience.
 
