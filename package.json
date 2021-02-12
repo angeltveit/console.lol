@@ -1,6 +1,6 @@
 {
   "name": "@tobben/console.lol",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Adds lol() to the console api for a more fun debug experience",
   "main": "cjs/index.js",
   "scripts": {
