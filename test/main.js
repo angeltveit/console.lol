@@ -1,5 +1,5 @@
-import bootstrap from './esm/index.js'
-import { lolify } from './esm/index.js'
+import bootstrap from '../esm/index.js'
+import { lolify } from '../esm/index.js'
 
 bootstrap()
 
